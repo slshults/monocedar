@@ -1,5 +1,4 @@
 .bundle
-Gemfile.lock
 db/development.sqlite*
 db/test.sqlite*
 log/*
