@@ -27,8 +27,8 @@ gem 'newrelic_rpm'
 
 group :production do
 	gem 'pg', '0.15.0'
-	gem 'puma'
 	gem 'foreman'
+	gem 'thin'
 end
 
 group :development, :test do
