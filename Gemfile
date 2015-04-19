@@ -26,7 +26,7 @@ gem 'will_paginate', '3.0.5'
 gem 'newrelic_rpm'
 
 group :production do
-	gem 'pg'
+	gem 'pg', '0.15.0'
 end
 
 group :development, :test do
