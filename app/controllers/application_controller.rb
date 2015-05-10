@@ -13,11 +13,11 @@ class ApplicationController < ActionController::Base
   before_filter :goaway_conversionsupportdotcom
   #before_filter :goaway_gkcddotcn
 
-  def check_uri
-    if Rails.env == 'production' && request && (request.subdomains.first != "www" || request.protocol != 'http://')
-      redirect_to "https://monocedar.herokuapp.com" + request.path, :status => 301 and return
-    end
-  end
+#  def check_uri
+#    if Rails.env == 'production' && request && (request.subdomains.first != "www" || request.protocol != 'http://')
+#      redirect_to "https://monocedar.herokuapp.com" + request.path, :status => 301 and return
+#    end
+#  end
 
   def default_headers
     headers['X-Frame-Options'] = 'SAMEORIGIN'
