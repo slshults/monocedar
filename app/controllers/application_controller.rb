@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :logged_in?
   before_filter :default_headers
-  before_filter :check_uri
+# before_filter :check_uri
   before_filter :goaway_conversionsupportdotcom
   #before_filter :goaway_gkcddotcn
 
