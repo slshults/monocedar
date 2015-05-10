@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
 
   def check_uri
     if Rails.env == 'production' && request && (request.subdomains.first != "www" || request.protocol != 'http://')
-      redirect_to "http://www.shakespeare-monologues.org" + request.path, :status => 301 and return
+      redirect_to "https://monocedar.herokuapp.com" + request.path, :status => 301 and return
     end
   end
 
