@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'spec/matchers'
 
 class PlaysControllerTest < ActionController::TestCase
   test "should get index" do

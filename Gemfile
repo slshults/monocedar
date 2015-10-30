@@ -24,6 +24,7 @@ gem 'tzinfo', '0.3.37'
 gem 'unidecoder', '1.1.2'
 gem 'will_paginate', '3.0.5'
 gem 'newrelic_rpm'
+gem 'mocha'
 
 group :production do
 	gem 'pg', '0.15.0'
