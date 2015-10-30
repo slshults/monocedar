@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'spec/matchers'
 
 class UsersControllerTest < ActionController::TestCase
   test "should get index when logged in" do
